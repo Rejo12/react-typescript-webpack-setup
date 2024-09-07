@@ -1,6 +1,7 @@
 import "./styles.css";
 import Image from "./react.png";
 import Rain from "./rain.svg";
+import { ClickCounter } from "./ClickCOunter";
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       </h1>
       <img src={Image} alt="React Logo" width="300" height="200" />
       <img src={Rain} alt="React Logo" width="300" />
+      <ClickCounter />
     </>
   );
 };
