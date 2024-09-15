@@ -1,9 +1,10 @@
 import "./styles.css";
 import Image from "./react.png";
 import Rain from "./rain.svg";
-import { ClickCounter } from "./ClickCOunter";
+import { ClickCounter } from "./ClickCounter";
 
 export const App = () => {
+  const name = "John";
   return (
     <>
       <h1>
